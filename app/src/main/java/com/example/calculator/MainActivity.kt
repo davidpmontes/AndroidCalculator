@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
     var hasDecimalTwo: Boolean = false
     var getNumberOne: Boolean = true
     var currSymbol = ""
-    val MAX_LENGTH = 8
+    val MAX_DIGITS = 8
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -147,7 +147,7 @@ class MainActivity : AppCompatActivity() {
     {
         if (getNumberOne)
         {
-            if (numberOne.length < MAX_LENGTH)
+            if (numberOne.length < MAX_DIGITS)
             {
                 if (numberOne == "0")
                 {
@@ -162,7 +162,7 @@ class MainActivity : AppCompatActivity() {
         }
         else
         {
-            if (numberTwo.length < MAX_LENGTH)
+            if (numberTwo.length < MAX_DIGITS)
             {
                 if (numberTwo == "0")
                 {
@@ -189,7 +189,7 @@ class MainActivity : AppCompatActivity() {
         {
             if (!hasDecimalOne)
             {
-                if (numberOne.length < MAX_LENGTH)
+                if (numberOne.length < MAX_DIGITS)
                 {
                     hasDecimalOne = true
                     numberOne += "."
@@ -201,7 +201,7 @@ class MainActivity : AppCompatActivity() {
         {
             if (!hasDecimalTwo)
             {
-                if (numberTwo.length < MAX_LENGTH)
+                if (numberTwo.length < MAX_DIGITS)
                 {
                     hasDecimalTwo = true
                     numberTwo += "."

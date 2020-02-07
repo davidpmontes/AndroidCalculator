@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="GreyButton">
+        <item name="android:background">@drawable/btn_rounded_grey</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="YellowButton">
+        <item name="android:background">@drawable/btn_rounded_yellow</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="LightGreyButton">
+        <item name="android:background">@drawable/btn_rounded_light_grey</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>
